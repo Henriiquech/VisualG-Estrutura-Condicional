@@ -15,8 +15,8 @@ Inicio
     senao
          se segundo < terceiro entao
             menor <- segundo
-    senao
-         menor <- terceiro
+         senao
+            menor <- terceiro
 
       fimse
     fimse
