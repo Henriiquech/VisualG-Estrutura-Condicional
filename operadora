@@ -15,7 +15,7 @@ Inicio
             
     fimse
     
-      escreva("Valor a pagar: ", valorapagar)
+      escreva("Valor a pagar: R$ ", valorapagar:4:2)
 
       
 
