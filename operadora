@@ -1,0 +1,23 @@
+Algoritmo "operadora"
+
+Var
+   minutos : inteiro
+   valorapagar : real
+
+Inicio
+      escreva("Digite a quantidade de minutos: ")
+      leia(minutos)
+
+      valorapagar <- 50.00
+
+      se minutos > 100 entao
+            valorapagar <- (valorapagar + 2 * (minutos - 100))
+            
+    fimse
+    
+      escreva("Valor a pagar: ", valorapagar)
+
+      
+
+
+Fimalgoritmo
