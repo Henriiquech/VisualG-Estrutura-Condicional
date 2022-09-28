@@ -14,21 +14,21 @@ Inicio
       se (X > 0) e (Y > 0) entao
          escreva("Q1")
       senao
-           se (Y > 0) e (X < 0) entao
+           se (X < 0) e (Y > 0) entao
               escreva("Q2")
            senao
                 se (X < 0) e (Y < 0) entao
                    escreva("Q3")
-                   senao
+                senao
                         se (X > 0) e (Y < 0) entao
                            escreva("Q4")
-                           senao
+                        senao
                                 se (X = 0) e (Y = 0) entao
                                    escreva("Origem")
-                                   senao
+                                senao
                                         se (X > 0) e (Y = 0) entao
                                            escreva("Eixo X")
-                                           senao
+                                        senao
                                            escreva("Eixo Y")
 
                                            fimse
